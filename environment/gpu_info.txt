@@ -1,0 +1,5 @@
+﻿Check command: python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.get_arch_list(), torch.cuda.get_device_name(0), torch.randn(1).cuda())"
+Output: 2.14.1+cu130 13.0 ['sm_75', 'sm_80', 'sm_86', 'sm_90', 'sm_100', 'sm_120'] NVIDIA GeForce RTX 5060 Laptop GPU tensor([1.5444], device='cuda:0')
+torch.cuda.is_available(): True
+open_clip_torch version: 3.3.0
+nvidia-smi GPU, driver, memory: NVIDIA GeForce RTX 5060 Laptop GPU, 617.42, 8151 MiB

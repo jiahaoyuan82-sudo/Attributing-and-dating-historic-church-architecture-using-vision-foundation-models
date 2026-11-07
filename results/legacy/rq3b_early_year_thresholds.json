@@ -1,0 +1,62 @@
+{
+  "Q13031741": {
+    "nonrevival_churches": 28,
+    "tenth_percentile": 1696.2,
+    "early_cutoff": 1496.2
+  },
+  "Q15011985": {
+    "nonrevival_churches": 14,
+    "tenth_percentile": 1200.0,
+    "early_cutoff": 1000.0
+  },
+  "Q176483": {
+    "nonrevival_churches": 742,
+    "tenth_percentile": 1191.4,
+    "early_cutoff": 991.4000000000001
+  },
+  "Q236122": {
+    "nonrevival_churches": 134,
+    "tenth_percentile": 1401.0,
+    "early_cutoff": 1201.0
+  },
+  "Q245188": {
+    "nonrevival_churches": 155,
+    "tenth_percentile": 1929.0,
+    "early_cutoff": 1729.0
+  },
+  "Q2860299": {
+    "nonrevival_churches": 14,
+    "tenth_percentile": 1275.1,
+    "early_cutoff": 1075.1
+  },
+  "Q34636": {
+    "nonrevival_churches": 49,
+    "tenth_percentile": 1898.6,
+    "early_cutoff": 1698.6
+  },
+  "Q4198718": {
+    "nonrevival_churches": 261,
+    "tenth_percentile": 1670.0,
+    "early_cutoff": 1470.0
+  },
+  "Q46261": {
+    "nonrevival_churches": 456,
+    "tenth_percentile": 1001.0,
+    "early_cutoff": 801.0
+  },
+  "Q47591": {
+    "nonrevival_churches": 19,
+    "tenth_percentile": 981.0,
+    "early_cutoff": 800
+  },
+  "Q840829": {
+    "nonrevival_churches": 586,
+    "tenth_percentile": 1576.0,
+    "early_cutoff": 1376.0
+  },
+  "Q930314": {
+    "nonrevival_churches": 24,
+    "tenth_percentile": 1500.0,
+    "early_cutoff": 1300.0
+  }
+}

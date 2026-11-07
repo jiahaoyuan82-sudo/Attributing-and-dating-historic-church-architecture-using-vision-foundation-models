@@ -1,0 +1,3 @@
+dataset,model,method,images,churches,fine_styles,fallback_images,mae,mae_ci_low,mae_ci_high,median_ae,median_ae_ci_low,median_ae_ci_high,spearman_rho,rho_ci_low,rho_ci_high
+main,baseline,B2_fine_style_median,3668,3605,52,6,81.49291166848418,77.2461067815149,85.82489441416894,37.0,34.99375,40.0,0.8568443187108088,0.8402871044745698,0.8716659441429523
+conflict_excluded,baseline,B2_fine_style_median,3587,3525,52,10,70.8652076944522,67.63371562894413,74.32538899968812,35.0,32.0,37.0,0.8814095735382855,0.8660877474530985,0.8957669347489908

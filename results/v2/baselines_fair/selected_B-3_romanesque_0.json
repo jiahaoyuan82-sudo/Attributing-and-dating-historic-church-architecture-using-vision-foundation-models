@@ -1,0 +1,9 @@
+{
+  "config": {
+    "lr": 0.001,
+    "tau": 0,
+    "dropout": 0.1
+  },
+  "source": "validation_only",
+  "val_metric": 0.9889522451888809
+}

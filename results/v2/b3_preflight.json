@@ -1,0 +1,69 @@
+{
+  "device": "cuda",
+  "test_split_accessed": false,
+  "linear_inputs": {
+    "B-2_224": [
+      2,
+      1024
+    ],
+    "B-2_448": [
+      2,
+      1024
+    ],
+    "B-4": [
+      2,
+      3584
+    ],
+    "B-6_DINO": [
+      2,
+      2048
+    ],
+    "B-6_CLIP": [
+      2,
+      768
+    ],
+    "B-6_SIG": [
+      2,
+      768
+    ]
+  },
+  "frozen_neural": {
+    "B-3": {
+      "backward": true,
+      "validation_readout": [
+        1,
+        14
+      ]
+    },
+    "B-5": {
+      "backward": true,
+      "validation_readout": [
+        1,
+        14
+      ]
+    },
+    "B-7": {
+      "backward": true,
+      "validation_readout": [
+        1,
+        14
+      ]
+    }
+  },
+  "online_neural": {
+    "B-8": {
+      "backward": true,
+      "validation_readout": [
+        1,
+        14
+      ]
+    },
+    "B-9": {
+      "backward": true,
+      "validation_readout": [
+        1,
+        14
+      ]
+    }
+  }
+}

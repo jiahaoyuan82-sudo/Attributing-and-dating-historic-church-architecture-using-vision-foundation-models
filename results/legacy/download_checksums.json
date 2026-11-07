@@ -1,0 +1,76 @@
+{
+  "source": "https://zenodo.org/records/5166987",
+  "checked_at_utc": "2026-11-04T20:22:31.373642+00:00",
+  "files": {
+    "building_parts.json": {
+      "present": true,
+      "size_bytes": 303897,
+      "expected_md5": "47d678ae39ee7b63e6d64b18d87fb5e1",
+      "actual_md5": "47d678ae39ee7b63e6d64b18d87fb5e1",
+      "valid": true
+    },
+    "churches.json": {
+      "present": true,
+      "size_bytes": 3377060,
+      "expected_md5": "7461f4752451f785d1d9340f79773393",
+      "actual_md5": "7461f4752451f785d1d9340f79773393",
+      "valid": true
+    },
+    "datasheet.pdf": {
+      "present": true,
+      "size_bytes": 85108,
+      "expected_md5": "d4dd46daad863bf874ba07aa74875638",
+      "actual_md5": "d4dd46daad863bf874ba07aa74875638",
+      "valid": true
+    },
+    "image_meta.json": {
+      "present": true,
+      "size_bytes": 37671550,
+      "expected_md5": "ccf8749c6b4dd4aa5fbacf1170da7a95",
+      "actual_md5": "ccf8749c6b4dd4aa5fbacf1170da7a95",
+      "valid": true
+    },
+    "images.zip": {
+      "present": true,
+      "size_bytes": 12389751014,
+      "expected_md5": "510367ec6dbac77d40f77c58673a1026",
+      "actual_md5": "510367ec6dbac77d40f77c58673a1026",
+      "valid": true
+    },
+    "labels.zip": {
+      "present": true,
+      "size_bytes": 252533,
+      "expected_md5": "0f4bd9aa922c1e965c4a3fb1b02b0b31",
+      "actual_md5": "0f4bd9aa922c1e965c4a3fb1b02b0b31",
+      "valid": true
+    },
+    "LICENSE": {
+      "present": true,
+      "size_bytes": 14759,
+      "expected_md5": "4ca2fb9d5a10b1ce06910aef6a92e86e",
+      "actual_md5": "4ca2fb9d5a10b1ce06910aef6a92e86e",
+      "valid": true
+    },
+    "parent_child_rel.txt": {
+      "present": true,
+      "size_bytes": 925,
+      "expected_md5": "0dd9e676d350c0ca2193b31f9f9061f6",
+      "actual_md5": "0dd9e676d350c0ca2193b31f9f9061f6",
+      "valid": true
+    },
+    "README.md": {
+      "present": true,
+      "size_bytes": 13391,
+      "expected_md5": "1054a7271a65bbeea5d82e0dbd2b165b",
+      "actual_md5": "1054a7271a65bbeea5d82e0dbd2b165b",
+      "valid": true
+    },
+    "style_names.txt": {
+      "present": true,
+      "size_bytes": 3460,
+      "expected_md5": "d24dde41f3512229cd99cac47ee8d564",
+      "actual_md5": "d24dde41f3512229cd99cac47ee8d564",
+      "valid": true
+    }
+  }
+}

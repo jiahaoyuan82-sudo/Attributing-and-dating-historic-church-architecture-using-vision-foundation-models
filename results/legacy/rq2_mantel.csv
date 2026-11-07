@@ -1,0 +1,3 @@
+test,model,spearman_r,permutation_p,permutations,classes
+confusion_vs_year_distance,DINO-B,0.05041847832909218,0.7872212778722127,10000,12
+center_distance_vs_year_distance,DINO-B,-0.01839056465922138,0.9062093790620938,10000,12

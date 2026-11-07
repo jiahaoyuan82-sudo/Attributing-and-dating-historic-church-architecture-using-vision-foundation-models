@@ -1,0 +1,16 @@
+{
+  "synthetic_f_loss": 4.584710121154785,
+  "synthetic_f_backward": true,
+  "device": "cuda",
+  "wc14_style_classes": 14,
+  "wc14_fine_classes": 63,
+  "chronoarch_f_trainable_parameters": 7287910,
+  "chronoarch_l_trainable_parameters": 7484518,
+  "lora_trainable_parameters": 196608,
+  "f_forward_backward_ok": true,
+  "l_forward_backward_ok": true,
+  "f_forward_backward_seconds": 1.3589999999967404,
+  "l_forward_backward_seconds": 0.20300000000861473,
+  "peak_allocated_bytes": 1482781696,
+  "peak_reserved_bytes": 1520435200
+}

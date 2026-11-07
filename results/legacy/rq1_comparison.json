@@ -1,0 +1,10 @@
+{
+  "best_model_selected_by_wc6_val": "DINO-B",
+  "best_model_wc6_val_bal_acc": 0.7682051282051282,
+  "paired_bal_acc_diff": 0.14911781776926114,
+  "paired_ci_low": 0.12100789931367914,
+  "paired_ci_high": 0.17628505195484706,
+  "mcnemar_exact_p": 7.636734671349091e-38,
+  "best_only_correct": 349,
+  "r50_only_correct": 88
+}

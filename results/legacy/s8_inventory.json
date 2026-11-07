@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\Attributing and dating historic church architecture using vision foundation models_实验数据",
+      "file_count": 43817,
+      "logical_bytes": 9708845913,
+      "logical_gib": 9.042
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\Attributing and dating historic church architecture using vision foundation models_实验材料",
+      "file_count": 22255,
+      "logical_bytes": 25210544743,
+      "logical_gib": 23.479
+    }
+  ],
+  "raw": {
+    "path": "C:\\Users\\Administrator\\Desktop\\Attributing and dating historic church architecture using vision foundation models_实验材料\\WikiChurches_raw",
+    "file_count": 9524,
+    "logical_bytes": 24891471762,
+    "logical_gib": 23.182
+  },
+  "processed": {
+    "path": "C:\\Users\\Administrator\\Desktop\\Attributing and dating historic church architecture using vision foundation models_实验材料\\processed",
+    "file_count": 12730,
+    "logical_bytes": 319070644,
+    "logical_gib": 0.297
+  }
+}

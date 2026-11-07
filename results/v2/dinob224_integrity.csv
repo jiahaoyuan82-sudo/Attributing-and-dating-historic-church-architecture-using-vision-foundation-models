@@ -1,0 +1,9 @@
+file,rows,zero_rows,nan_rows,inf_rows,bytes,index_matches_metadata,device
+DINO-B_224_base_tokens.npy,9485,0,0,0,3729653888,True,cuda
+DINO-B_224_base_cls.npy,9485,0,0,0,14569088,True,cuda
+DINO-B_224_flip_tokens.npy,9485,0,0,0,3729653888,True,cuda
+DINO-B_224_flip_cls.npy,9485,0,0,0,14569088,True,cuda
+DINO-B_224_crop0_tokens.npy,9485,0,0,0,3729653888,True,cuda
+DINO-B_224_crop0_cls.npy,9485,0,0,0,14569088,True,cuda
+DINO-B_224_crop1_tokens.npy,9485,0,0,0,3729653888,True,cuda
+DINO-B_224_crop1_cls.npy,9485,0,0,0,14569088,True,cuda

@@ -1,0 +1,173 @@
+section,subset,style,country,images,churches,year_known_images,year_coverage_pct
+subset_total,all,,,9485,9346,4086,43.0785
+class,all,Aisleless Church,,1,1,1,100.0000
+class,all,Amsterdam School,,6,6,6,100.0000
+class,all,Anglo-Saxon Architecture,,4,4,4,100.0000
+class,all,Archduke Style,,1,1,0,0.0000
+class,all,Architectural School of Hrodna,,1,1,1,100.0000
+class,all,Architectural School of Polack,,2,2,1,50.0000
+class,all,Armenian Architecture,,20,20,16,80.0000
+class,all,Art Deco,,15,14,7,46.6667
+class,all,Art Nouveau,,72,72,54,75.0000
+class,all,Arts and Crafts Movement,,1,1,1,100.0000
+class,all,Baroque,,1508,1487,608,40.3183
+class,all,Baroque Gothic,,2,2,1,50.0000
+class,all,Brick Romanesque Style,,1,1,1,100.0000
+class,all,Byzantine Architecture,,151,146,99,65.5629
+class,all,Carolean Style,,1,1,1,100.0000
+class,all,Carolingian Architecture,,2,2,1,50.0000
+class,all,Classical Architecture,,456,444,269,58.9912
+class,all,Colonial Architecture,,1,1,1,100.0000
+class,all,Constructivism,,6,6,5,83.3333
+class,all,Critical Regionalism,,1,1,1,100.0000
+class,all,Delftse School,,2,1,2,100.0000
+class,all,Eclectic Architecture,,22,22,8,36.3636
+class,all,Expressionist Architecture,,3,3,3,100.0000
+class,all,Folk Architecture of Belarus,,49,49,29,59.1837
+class,all,Functionalism,,10,10,9,90.0000
+class,all,Georgian Architecture,,11,11,7,63.6364
+class,all,Gothic,,3649,3592,1670,45.7660
+class,all,Greek Revival Architecture,,4,4,2,50.0000
+class,all,Minimalism,,1,1,1,100.0000
+class,all,Modern Architecture,,511,505,158,30.9198
+class,all,Moorish Revival Architecture,,1,1,1,100.0000
+class,all,Mosan Baroque Architecture,,1,1,0,0.0000
+class,all,Mudéjar Style,,43,43,14,32.5581
+class,all,Naryshkin Baroque,,3,3,2,66.6667
+class,all,Neotraditional Architecture,,16,16,16,100.0000
+class,all,Neues Bauen,,1,1,1,100.0000
+class,all,Nordic Classicism,,1,1,1,100.0000
+class,all,Noucentisme,,1,1,0,0.0000
+class,all,Nuraghe,,1,1,1,100.0000
+class,all,Organic Architecture,,1,1,1,100.0000
+class,all,Pre-Romanesque Art,,27,27,9,33.3333
+class,all,Renaissance,,217,209,163,75.1152
+class,all,Romanesque,,2209,2186,653,29.5609
+class,all,Romantic Architecture,,5,5,3,60.0000
+class,all,Russian Architecture,,2,2,2,100.0000
+class,all,Russian Pseudo-Gothic,,1,1,1,100.0000
+class,all,Rustic Architecture,,1,1,1,100.0000
+class,all,Saint-Sulpicien Style,,1,1,0,0.0000
+class,all,Spanish Romanesque,,1,1,0,0.0000
+class,all,Swiss Landistil,,1,1,0,0.0000
+class,all,Tuscan Order,,1,1,1,100.0000
+class,all,Vernacular Architecture,,83,83,24,28.9157
+class,all,(unassigned_or_multilabel),,353,348,225,63.7394
+subset_total,wc14,,,8931,8800,3713,41.5743
+class,wc14,Folk Architecture of Belarus,,48,48,28,58.3333
+class,wc14,Mudéjar Style,,43,43,14,32.5581
+class,wc14,Gothic,,3599,3543,1632,45.3459
+class,wc14,Renaissance,,216,208,162,75.0000
+class,wc14,Modern Architecture,,509,503,156,30.6483
+class,wc14,Eclectic Architecture,,22,22,8,36.3636
+class,wc14,Armenian Architecture,,20,20,16,80.0000
+class,wc14,Art Nouveau,,58,58,49,84.4828
+class,wc14,Classical Architecture,,453,441,267,58.9404
+class,wc14,Romanesque,,2207,2184,651,29.4971
+class,wc14,Byzantine Architecture,,142,137,92,64.7887
+class,wc14,Pre-Romanesque Art,,27,27,9,33.3333
+class,wc14,Baroque,,1504,1483,605,40.2261
+class,wc14,Vernacular Architecture,,83,83,24,28.9157
+subset_total,wc14_train,,,5798,5717,2389,41.2039
+class,wc14_train,Folk Architecture of Belarus,,31,31,20,64.5161
+class,wc14_train,Mudéjar Style,,28,28,10,35.7143
+class,wc14_train,Gothic,,2337,2303,1054,45.1006
+class,wc14_train,Renaissance,,141,135,105,74.4681
+class,wc14_train,Modern Architecture,,331,327,103,31.1178
+class,wc14_train,Eclectic Architecture,,14,14,5,35.7143
+class,wc14_train,Armenian Architecture,,13,13,10,76.9231
+class,wc14_train,Art Nouveau,,37,37,29,78.3784
+class,wc14_train,Classical Architecture,,292,286,171,58.5616
+class,wc14_train,Romanesque,,1432,1420,418,29.1899
+class,wc14_train,Byzantine Architecture,,90,88,58,64.4444
+class,wc14_train,Pre-Romanesque Art,,17,17,4,23.5294
+class,wc14_train,Baroque,,981,964,386,39.3476
+class,wc14_train,Vernacular Architecture,,54,54,16,29.6296
+subset_total,wc14_val,,,891,879,372,41.7508
+class,wc14_val,Folk Architecture of Belarus,,5,5,3,60.0000
+class,wc14_val,Mudéjar Style,,4,4,2,50.0000
+class,wc14_val,Gothic,,361,354,179,49.5845
+class,wc14_val,Renaissance,,22,21,16,72.7273
+class,wc14_val,Modern Architecture,,52,50,11,21.1538
+class,wc14_val,Eclectic Architecture,,2,2,1,50.0000
+class,wc14_val,Armenian Architecture,,2,2,2,100.0000
+class,wc14_val,Art Nouveau,,6,6,5,83.3333
+class,wc14_val,Classical Architecture,,44,44,29,65.9091
+class,wc14_val,Romanesque,,219,218,62,28.3105
+class,wc14_val,Byzantine Architecture,,14,14,9,64.2857
+class,wc14_val,Pre-Romanesque Art,,3,3,1,33.3333
+class,wc14_val,Baroque,,149,148,52,34.8993
+class,wc14_val,Vernacular Architecture,,8,8,0,0.0000
+subset_total,wc14_test,,,2242,2204,952,42.4621
+class,wc14_test,Folk Architecture of Belarus,,12,12,5,41.6667
+class,wc14_test,Mudéjar Style,,11,11,2,18.1818
+class,wc14_test,Gothic,,901,886,399,44.2841
+class,wc14_test,Renaissance,,53,52,41,77.3585
+class,wc14_test,Modern Architecture,,126,126,42,33.3333
+class,wc14_test,Eclectic Architecture,,6,6,2,33.3333
+class,wc14_test,Armenian Architecture,,5,5,4,80.0000
+class,wc14_test,Art Nouveau,,15,15,15,100.0000
+class,wc14_test,Classical Architecture,,117,111,67,57.2650
+class,wc14_test,Romanesque,,556,546,171,30.7554
+class,wc14_test,Byzantine Architecture,,38,35,25,65.7895
+class,wc14_test,Pre-Romanesque Art,,7,7,4,57.1429
+class,wc14_test,Baroque,,374,371,167,44.6524
+class,wc14_test,Vernacular Architecture,,21,21,8,38.0952
+subset_total,wc6,,,8488,8362,3473,40.9166
+class,wc6,Gothic,,3599,3543,1632,45.3459
+class,wc6,Renaissance,,216,208,162,75.0000
+class,wc6,Modern Architecture,,509,503,156,30.6483
+class,wc6,Classical Architecture,,453,441,267,58.9404
+class,wc6,Romanesque,,2207,2184,651,29.4971
+class,wc6,Baroque,,1504,1483,605,40.2261
+subset_total,wc6_train,,,6460,6358,2627,40.6656
+class,wc6_train,Gothic,,3041,2993,1379,45.3469
+class,wc6_train,Renaissance,,64,59,51,79.6875
+class,wc6_train,Modern Architecture,,332,327,107,32.2289
+class,wc6_train,Classical Architecture,,290,281,177,61.0345
+class,wc6_train,Romanesque,,1653,1635,487,29.4616
+class,wc6_train,Baroque,,1080,1063,426,39.4444
+subset_total,wc6_val,,,306,299,137,44.7712
+class,wc6_val,Gothic,,52,50,23,44.2308
+class,wc6_val,Renaissance,,52,49,40,76.9231
+class,wc6_val,Modern Architecture,,50,50,12,24.0000
+class,wc6_val,Classical Architecture,,50,50,27,54.0000
+class,wc6_val,Romanesque,,50,50,10,20.0000
+class,wc6_val,Baroque,,52,50,25,48.0769
+subset_total,wc6_test,,,1722,1705,709,41.1731
+class,wc6_test,Gothic,,506,500,230,45.4545
+class,wc6_test,Renaissance,,100,100,71,71.0000
+class,wc6_test,Modern Architecture,,127,126,37,29.1339
+class,wc6_test,Classical Architecture,,113,110,63,55.7522
+class,wc6_test,Romanesque,,504,499,154,30.5556
+class,wc6_test,Baroque,,372,370,154,41.3978
+subset_total,wc4,,,7526,7418,3050,40.5262
+class,wc4,Gothic,,3599,3543,1632,45.3459
+class,wc4,Renaissance,,216,208,162,75.0000
+class,wc4,Romanesque,,2207,2184,651,29.4971
+class,wc4,Baroque,,1504,1483,605,40.2261
+subset_total,wc4_train,,,5838,5750,2343,40.1336
+class,wc4_train,Gothic,,3041,2993,1379,45.3469
+class,wc4_train,Renaissance,,64,59,51,79.6875
+class,wc4_train,Romanesque,,1653,1635,487,29.4616
+class,wc4_train,Baroque,,1080,1063,426,39.4444
+subset_total,wc4_val,,,206,199,98,47.5728
+class,wc4_val,Gothic,,52,50,23,44.2308
+class,wc4_val,Renaissance,,52,49,40,76.9231
+class,wc4_val,Romanesque,,50,50,10,20.0000
+class,wc4_val,Baroque,,52,50,25,48.0769
+subset_total,wc4_test,,,1482,1469,609,41.0931
+class,wc4_test,Gothic,,506,500,230,45.4545
+class,wc4_test,Renaissance,,100,100,71,71.0000
+class,wc4_test,Romanesque,,504,499,154,30.5556
+class,wc4_test,Baroque,,372,370,154,41.3978
+country,all,,Germany,3613,3557,775,21.4503
+country,all,,France,1065,1063,314,29.4836
+country,all,,United Kingdom,950,943,789,83.0526
+country,all,,Spain,726,717,259,35.6749
+country,all,,Italy,555,538,413,74.4144
+country,all,,Austria,491,485,76,15.4786
+country,all,,Czech Republic,424,418,328,77.3585
+country,all,,Belgium,257,256,240,93.3852
+country,all,,Switzerland,240,239,101,42.0833
+country,all,,Belarus,217,215,105,48.3871

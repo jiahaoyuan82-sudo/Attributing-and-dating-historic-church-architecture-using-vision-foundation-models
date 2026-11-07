@@ -1,0 +1,17 @@
+{
+  "final": {
+    "queries": 8,
+    "lambda_fine": 0.3,
+    "lambda_year": 0.3,
+    "tau": 1,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "batch_size": 64,
+    "max_epochs": 40,
+    "patience": 6,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "variant": "A0"
+  },
+  "selection_metric": "fold_0_validation_only"
+}

@@ -1,0 +1,3 @@
+dataset,model,partial_spearman_rho,approximate_p,cluster_ci_low,cluster_ci_high,images
+main,DINO-B,0.6530797996132914,0.0,0.6322766980160418,0.6736909612811995,3668
+conflict_excluded,DINO-B,0.6650454014322282,0.0,0.6448741604551409,0.6855347787950282,3587

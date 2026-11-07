@@ -1,0 +1,8 @@
+{
+  "config": {
+    "lr": 0.0005,
+    "tau": 0,
+    "dropout": 0.2
+  },
+  "source": "fold_0_validation_only"
+}

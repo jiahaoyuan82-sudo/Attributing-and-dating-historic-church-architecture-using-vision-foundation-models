@@ -1,0 +1,47 @@
+﻿seed: 0
+dataset:
+  raw_path: "../Attributing and dating historic church architecture using vision foundation models_实验材料/WikiChurches_raw"
+  processed_path: "../Attributing and dating historic church architecture using vision foundation models_实验材料/processed"
+  zenodo_record: 5166987
+  md5_images_zip: 510367ec6dbac77d40f77c58673a1026
+  wc14_split: {train_fraction: 0.65, val_fraction: 0.10, test_fraction: 0.25, min_test_churches_per_class: 5}
+  phash_max_hamming_distance: 4
+  wikidata_year_property: P571
+  wikidata_country_property: P17
+  ambiguous_wikidata_years: leave_missing
+models:
+  R50: {source: timm, id: resnet50.a1_in1k}
+  DINO-B: {source: huggingface, id: facebook/dinov2-base}
+  CLIP-L: {source: open_clip, id: ViT-L-14, pretrained: openai}
+  SIG2-B: {source: huggingface, id: google/siglip2-base-patch16-224}
+extraction:
+  image_short_side_cache: 256
+  input_size: 224
+  batch_size: 64
+  num_workers: 8
+  dtype: float16
+  l2_normalize: true
+rq1:
+  knn_k: [5, 10, 20, 50]
+  logistic_C: [0.01, 0.1, 1, 10]
+  logistic_max_iter: 3000
+  bootstrap_iterations: 1000
+rq2:
+  min_churches_with_year_per_class: 10
+  mantel_permutations: 10000
+rq3a:
+  gothic_original_max_year: 1550
+  gothic_revival_min_year: 1800
+  romanesque_original_max_year: 1250
+  cross_validation_folds: 5
+  recompress_jpeg_quality: 75
+rq3b:
+  year_min: 800
+  year_max: 2020
+  cross_validation_folds: 5
+  inner_folds: 3
+  ridge_alpha: [0.1, 1, 10, 100]
+rq4:
+  random_occlusions_per_image: 20
+  max_expert_random_overlap_fraction: 0.1
+

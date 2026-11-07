@@ -1,0 +1,26 @@
+{
+  "ChronoArch-L": {
+    "batch_size": 16,
+    "backward_ok": true,
+    "peak_allocated_bytes": 2083366400,
+    "peak_reserved_bytes": 2298478592,
+    "optimizer_step": false,
+    "test_split_accessed": false
+  },
+  "B-8": {
+    "batch_size": 16,
+    "backward_ok": true,
+    "peak_allocated_bytes": 792261120,
+    "peak_reserved_bytes": 884998144,
+    "optimizer_step": false,
+    "test_split_accessed": false
+  },
+  "B-9": {
+    "batch_size": 16,
+    "backward_ok": true,
+    "peak_allocated_bytes": 1957527040,
+    "peak_reserved_bytes": 2065694720,
+    "optimizer_step": false,
+    "test_split_accessed": false
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "device": "cuda",
+  "split_checks": {
+    "wc4_rq4": {
+      "folds": 1,
+      "eligible_images": 6085,
+      "style_classes": 4,
+      "fine_classes": 36
+    },
+    "wc6": {
+      "folds": 1,
+      "eligible_images": 8488,
+      "style_classes": 6,
+      "fine_classes": 46
+    },
+    "wc14": {
+      "folds": 1,
+      "eligible_images": 8931,
+      "style_classes": 14,
+      "fine_classes": 63
+    },
+    "gothic": {
+      "folds": 5,
+      "eligible_images": 2337,
+      "style_classes": 2,
+      "fine_classes": 15
+    },
+    "romanesque": {
+      "folds": 5,
+      "eligible_images": 902,
+      "style_classes": 2,
+      "fine_classes": 9
+    },
+    "dating": {
+      "folds": 5,
+      "eligible_images": 3668,
+      "style_classes": 14,
+      "fine_classes": 52
+    }
+  },
+  "task_forward_backward": {
+    "style": {
+      "loss_finite": true,
+      "backward_ok": true,
+      "readout_shape": [
+        2,
+        6
+      ]
+    },
+    "authenticity": {
+      "loss_finite": true,
+      "backward_ok": true,
+      "readout_shape": [
+        2
+      ]
+    },
+    "dating": {
+      "loss_finite": true,
+      "backward_ok": true,
+      "readout_shape": [
+        2
+      ]
+    }
+  },
+  "real_train_and_val_batches": {
+    "wc4_rq4": {
+      "real_training_batch_backward": true,
+      "validation_tta_readout_shape": [
+        2,
+        4
+      ],
+      "test_split_accessed": false
+    },
+    "wc6": {
+      "real_training_batch_backward": true,
+      "validation_tta_readout_shape": [
+        2,
+        6
+      ],
+      "test_split_accessed": false
+    },
+    "wc14": {
+      "real_training_batch_backward": true,
+      "validation_tta_readout_shape": [
+        2,
+        14
+      ],
+      "test_split_accessed": false
+    },
+    "gothic": {
+      "real_training_batch_backward": true,
+      "validation_tta_readout_shape": [
+        2
+      ],
+      "test_split_accessed": false
+    },
+    "romanesque": {
+      "real_training_batch_backward": true,
+      "validation_tta_readout_shape": [
+        2
+      ],
+      "test_split_accessed": false
+    },
+    "dating": {
+      "real_training_batch_backward": true,
+      "validation_tta_readout_shape": [
+        2
+      ],
+      "test_split_accessed": false
+    }
+  },
+  "planned_batch_preflight": {
+    "batch_size": 64,
+    "backward_ok": true,
+    "peak_allocated_bytes": 821807616,
+    "peak_reserved_bytes": 1109393408,
+    "optimizer_step": false
+  },
+  "lora_real_batch": {
+    "real_training_batch_backward": true,
+    "validation_tta_readout_shape": [
+      1,
+      14
+    ],
+    "peak_allocated_bytes": 1485631488,
+    "peak_reserved_bytes": 1507852288,
+    "optimizer_step": false,
+    "test_split_accessed": false
+  },
+  "ablation_variants": {
+    "variants": [
+      "A0",
+      "A1",
+      "A1a",
+      "A1b",
+      "A2",
+      "A2a",
+      "A2b",
+      "A3",
+      "A3a",
+      "A3b",
+      "A4",
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "all_cuda_forward_backward_ok": true
+  },
+  "r1_real_batch": {
+    "backbone": "DINO-B",
+    "train_backward": true,
+    "validation_readout_shape": [
+      1,
+      6
+    ],
+    "test_split_accessed": false
+  }
+}

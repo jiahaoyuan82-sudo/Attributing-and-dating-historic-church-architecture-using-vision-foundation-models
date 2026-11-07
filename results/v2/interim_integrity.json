@@ -1,0 +1,20 @@
+{
+  "prediction_files": 675,
+  "prediction_files_by_task": {
+    "wc6": 54,
+    "wc14": 33,
+    "gothic": 255,
+    "romanesque": 165,
+    "dating": 165,
+    "wc4_rq4": 3
+  },
+  "main_rows": 60,
+  "significance_rows": 10,
+  "ablation_rows": 15,
+  "gate_rows": 60,
+  "rq4_draw_rows": 5838,
+  "rq4_images": 139,
+  "rq4_test_rows": 3,
+  "report_exists": false,
+  "active_report_marker_exists": false
+}

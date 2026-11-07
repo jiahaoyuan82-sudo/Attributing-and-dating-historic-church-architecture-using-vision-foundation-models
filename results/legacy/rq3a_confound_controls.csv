@@ -1,0 +1,7 @@
+style,control,auroc_mean,auroc_sd,images,exif_year_present,eligible_countries
+Gothic,image_properties_only,0.5990917990601925,0.030652265317699243,2337,348.0,
+Gothic,recompressed_q75,0.9424909695361698,0.011113484750635484,2337,,
+Romanesque,image_properties_only,0.6577285831567291,0.02859375014318982,902,106.0,
+Romanesque,recompressed_q75,0.956445259051365,0.019938382338422784,902,,
+Gothic,country_weighted_auroc,0.9344271277514673,,2218,,14.0
+Romanesque,country_weighted_auroc,0.9047060436516653,,775,,7.0

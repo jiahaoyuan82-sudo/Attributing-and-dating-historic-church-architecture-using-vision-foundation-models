@@ -1,0 +1,16 @@
+{
+  "indexes": {
+    "image_ids": 9485,
+    "metadata_order_match": true,
+    "original_feature_index_match": true,
+    "rq4_rows": 5838,
+    "rq4_image_ids": 139,
+    "rq4_order_match": true
+  },
+  "feature_files": 42,
+  "feature_failures": 0,
+  "result_csv_files": 0,
+  "result_csv_failures": 0,
+  "b2_unit_test_record_ok": true,
+  "renamed": []
+}

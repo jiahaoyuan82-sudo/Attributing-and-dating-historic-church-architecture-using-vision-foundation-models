@@ -1,0 +1,18 @@
+{
+  "DINO-B": {
+    "train_images_removed": 90,
+    "validation_images_removed": 8,
+    "train_images_retained": 5748,
+    "val_images_retained": 198,
+    "selected_C": 1,
+    "val_bal_acc": 0.7759361535121413
+  },
+  "R50": {
+    "train_images_removed": 90,
+    "validation_images_removed": 8,
+    "train_images_retained": 5748,
+    "val_images_retained": 198,
+    "selected_C": 1,
+    "val_bal_acc": 0.6906223487758443
+  }
+}
